@@ -4,7 +4,7 @@ import apple_store_icon from "./assets/Download_on_the_App_Store_Badge_US-UK_RGB
 function App() {
   return (
     <>
-      <><img src={google_play_icon} style={{ width: 150 }}></img>
+      <><img src={google_play_icon} style={{ width: 120 }}></img>
         <img src={apple_store_icon}></img></>
       <Routes>
         <Route path="/" element={<></>} />
