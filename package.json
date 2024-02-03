@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "build": "vite build && cp -r dist docs",
     "rebuild": "vite build && rm -rf docs && cp -r dist docs",
-    "git": "git add . && git commit && git push origin master"
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "yarn rebuild && yarn git"
   },
   "dependencies": {
     "react": "^18.2.0",
