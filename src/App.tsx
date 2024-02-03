@@ -8,15 +8,14 @@ function App() {
         <header style={{ padding: 20 }}>
           <h1 style={{ fontFamily: 'Pacifico', margin: 0, fontSize: 50, marginLeft: "20px", lineHeight: 1 }}>PAFE</h1>
         </header>
-        <img src={google_play_icon} style={{ width: 120 }}></img>
-        <img src={apple_store_icon}></img>
+        {/* <img src={google_play_icon} style={{ width: 120 }}></img> */}
+        {/* <img src={apple_store_icon}></img> */}
       </>
       <Routes>
-        <Route path="/" element={<></>} />
-        <Route path="/about" element={<></>} />
-        <Route path="/contact" element={<></>} />
-        <Route path="/term" element={<></>} />
-        <Route path="/privacy-policy" element={<></>} />
+        <Route path="/" element={<p>landing</p>} />
+        <Route path="/about" element={<p>about</p>} />
+        <Route path="/term" element={<p>term</p>} />
+        <Route path="/privacy-policy" element={<p>privacy-policy</p>} />
         <Route path="*" element={<></>} /> {/* not found */}
       </Routes>
     </>
