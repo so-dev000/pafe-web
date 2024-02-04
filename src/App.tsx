@@ -5,8 +5,8 @@ function App() {
   return (
     <>
       <>
-        <header style={{ padding: 20, position: 'sticky', top: 0, backgroundColor: 'white', borderBottom: "solid 2px", borderBottomColor: "#EEEEEE" }}>
-          <h1 style={{ fontFamily: 'Pacifico', margin: 0, fontSize: 50, marginLeft: "20px", lineHeight: 1 }}>PAFE</h1>
+        <header style={{ padding: 15, position: 'sticky', top: 0, backgroundColor: 'white', borderBottom: "solid 2px", borderBottomColor: "#EEEEEE" }}>
+          <h1 style={{ fontFamily: 'Pacifico', margin: 0, fontSize: 35, marginLeft: "20px", lineHeight: 1 }}>PAFE</h1>
         </header>
         <img src={google_play_icon} style={{ width: 120 }}></img>
         <img src={apple_store_icon}></img>
