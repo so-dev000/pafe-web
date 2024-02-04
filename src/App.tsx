@@ -6,11 +6,12 @@ function App() {
     <>
       <>
         <header style={{ padding: 5, position: 'sticky', top: 0, backgroundColor: 'white', borderBottom: "solid 2px", borderBottomColor: "#EEEEEE" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-around" }}>
-            <h1 style={{ fontFamily: 'Pacifico', margin: 0, fontSize: 35, marginLeft: "20px", lineHeight: 1, position: "absolute", left: "0" }}>PAFE</h1>
+          <h1 style={{ fontFamily: 'Pacifico', margin: 0, fontSize: 35, marginLeft: "20px", lineHeight: 1, position: "absolute", left: "0", top: "15px" }}>PAFE</h1>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-around", marginLeft: "10%" }}>
             <p>使い方</p>
             <p>利用規約</p>
             <p>プライバシーポリシー</p>
+            <p>お問い合わせ</p>
           </div>
         </header>
         <img src={google_play_icon} style={{ width: 120 }}></img>
