@@ -1,4 +1,4 @@
-const baseURL = "pafe-web";
+export const baseURL = "pafe-web";
 export const URLs = {
   Lp: baseURL + "/",
   About: baseURL + "/about",
