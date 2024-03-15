@@ -1,6 +1,7 @@
+const baseURL = "pafe-web";
 export const URLs = {
-  Lp: "/",
-  About: "/about",
-  Term: "/term",
-  PrivacyPolicy: "/privacy-policy",
+  Lp: baseURL + "/",
+  About: baseURL + "/about",
+  Term: baseURL + "/term",
+  PrivacyPolicy: baseURL + "/privacy-policy",
 };
