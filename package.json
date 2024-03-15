@@ -9,7 +9,7 @@
     "build": "tsc && vite build && cp dist/index.html dist/404.html && cp -r dist docs",
     "rebuild": "tsc && vite build && cp dist/index.html dist/404.html && rm -rf docs && cp -r dist docs",
     "git": "git add . && git commit && git push origin master",
-    "deploy": "yarn rebuild && yarn git"
+    "deploy": "npm run rebuild && npm run git"
   },
   "dependencies": {
     "react": "^18.2.0",
