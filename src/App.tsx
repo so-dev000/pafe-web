@@ -6,10 +6,13 @@ import { About } from "./feature/about/about";
 import { PrivacyPolicy } from "./feature/privacyPolicy/privacyPolicy";
 import { NotFound } from "./feature/notFound/notFound";
 import { URLs } from "./constants/urls";
+import { MobileHeader } from "./components/mobileHeader";
 function App() {
+  const width = window.innerWidth;
+
   return (
     <>
-      <Header></Header>
+      {width > 480 ? <Header></Header> : <MobileHeader></MobileHeader>}
       <Routes>
         <Route path={URLs.Lp} element={<Lp></Lp>} />
         <Route path={URLs.About} element={<About></About>} />

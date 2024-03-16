@@ -190,5 +190,16 @@ const containerStyle = css({
   marginTop: "3%",
   animation: `${containerAnimation} 1s`,
 });
-const textStyle = css({ color: "#EEEEEE", width: "60%", lineHeight: "2" });
-const sectionStyle = css({ color: "#EEEEEE" });
+const textStyle = css(
+  {
+    color: "#EEEEEE",
+    width: "60%",
+    lineHeight: "2",
+  },
+  `@media(max-width: 480px){width:80%;}`
+);
+const sectionStyle = css(
+  { color: "#EEEEEE", width: "60%" },
+
+  `@media(max-width: 480px){width:80%;}`
+);
