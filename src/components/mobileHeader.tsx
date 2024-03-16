@@ -35,15 +35,23 @@ export const MobileHeader = () => {
       </header>
       {isOpen && (
         <div css={dropDownStyle}>
-          <Link to={URLs.About} css={linkStyle}>
+          <Link
+            to={URLs.About}
+            css={linkStyle}
+            onClick={() => setIsOpen(false)}
+          >
             <p css={fontStyle}>使い方</p>
             {pathname === "/" + URLs.About && <div css={selectedStyle}></div>}
           </Link>
-          <Link to={URLs.Term} css={linkStyle}>
+          <Link to={URLs.Term} css={linkStyle} onClick={() => setIsOpen(false)}>
             <p css={fontStyle}>利用規約</p>
             {pathname === "/" + URLs.Term && <div css={selectedStyle}></div>}
           </Link>
-          <Link to={URLs.PrivacyPolicy} css={linkStyle}>
+          <Link
+            to={URLs.PrivacyPolicy}
+            css={linkStyle}
+            onClick={() => setIsOpen(false)}
+          >
             <p css={fontStyle}>プライバシーポリシー</p>
             {pathname === "/" + URLs.PrivacyPolicy && (
               <div css={selectedStyle}></div>
