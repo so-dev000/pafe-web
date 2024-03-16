@@ -72,6 +72,7 @@ const dropDownStyle = css({
   alignItems: "center",
   backgroundColor: "black",
   zIndex: 150,
+  paddingBottom: "15px",
 });
 const buttonStyle = css({
   width: "50px",
@@ -120,5 +121,6 @@ const selectedStyle = css({
   backgroundColor: "white",
   height: "1px",
   width: "100px",
+  marginBottom: "15px",
 });
-const fontStyle = css({ color: "white" });
+const fontStyle = css({ color: "white", marginBottom: "5px" });
